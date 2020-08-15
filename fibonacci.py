@@ -1,6 +1,6 @@
 #fibonacci --> i = (i-1) + (i-2)
 
-a = int(input("kac sayilik bir seri oluşturalım"))
+a = int(input("Size:"))
 
 b = [1,1]
 

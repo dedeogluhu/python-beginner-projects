@@ -1,6 +1,6 @@
 import math
 
-size = int(input("kaç karelik görünüm istiyorsunuz???"))
+size = int(input("Board size:"))
 x = int(math.sqrt(size))
 
 #print(" ---\n|   |\n --- ")

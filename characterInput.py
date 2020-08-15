@@ -1,10 +1,10 @@
-x = input("Adınızı giriniz")
-y = int(input("Yaşınızı Giriniz"))
+name = input("Please enter your name:")
+age = int(input("Please enter your age:"))
 
-if type(x) == str:
-    if type(y) == int:
-        print( x, " Bey/Hanım şuan ", y, "yaşındasınız ve ", 100 - y, "yıl sonra 100 yaşında olacaksınız.")
+if type(name) == str:
+    if type(age) == int:
+        print( name,"You are ",age, "years old and","you will be 100 after", (100 - age), "years")
     else:
-        print("lütfen bir sayı giriniz")
+        print("Please enter a valid number")
 else:
-    print("lütfen isminizi giriniz")
+    print("please enter your name")

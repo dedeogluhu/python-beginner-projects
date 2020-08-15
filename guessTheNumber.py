@@ -2,19 +2,19 @@ import random
 
 x = random.randrange(0,21)
 
-y=int(input("sayıyı tahmin ediniz(20 hakkınız var)"))
+y=int(input("You have 20 turns to guess the number"))
 
 for a in range(0,21):
     if x == y:
-        print("sayıyı doğru bildiniz")
+        print("You guessed right")
         break
     elif y > x:
-        print("biraz küçük salla")
+        print("A bit smaller")
     elif y < x:
-        print("biraz büyük salla")
+        print("A bit bigger")
     elif y < 0 or y > 20:
-        print("1 ile 20 arasında sayı gir")
+        print("Enter a number between 20")
     else:
-        print("bir hata oluştu")
-    y=int(input("yeni sayı giriniz"))
-print("oyun bitti")
+        print("Enter a valid number")
+    y=int(input("Guess again"))
+print("Game Over")

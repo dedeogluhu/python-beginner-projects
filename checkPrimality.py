@@ -1,4 +1,4 @@
-a = int(input("bir sayi giriniz"))
+a = int(input("Enter a number"))
 
 b = []
 
@@ -9,6 +9,6 @@ for i in range(1,a+1):
         continue
 
 if len(b) == 2:
-    print("bu asal sayidir")
+    print("This is a prime number")
 else:
-    print("bu asal sayi degildir veya yanlis sayi girdiniz")
+    print("This is not a prime number")

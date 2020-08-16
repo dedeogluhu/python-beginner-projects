@@ -5,7 +5,5 @@ b = []
 for i in range(0,len(a)):
     if a[i] % 2 == 1:
         b.append(a[i])
-    else:
-        continue
-    
+
 print(b)

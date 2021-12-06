@@ -1,8 +1,8 @@
-x = input("palindrome testi yapmak istediginiz kelimeyi giriniz\n")
+x = input("Please enter a word")
 
 y = x[::-1]
 
 if x == y:
-    print("bu palindromedur")
+    print("this is a palindrome")
 else:
-    print("palindrome degildir ya da yanlis kelime girdiniz")
+    print("this is not a palindrome")
